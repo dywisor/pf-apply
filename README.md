@@ -12,6 +12,12 @@ Otherwise, the configuration gets rolled back to the previous rule set.
 The typical scenario is updating the pf.conf on a remote machine via SSH
 while avoiding to get locked out.
 
+This program is written for OpenBSD.
+It probably does not work on other \*BSD systems.
+For instance, FreeBSD's ``pfctl(8)`` does not support
+dumping and restoring states (``-S``, ``-L`` options),
+which could be worked around by disabling that feature.
+
 
 # Usage
 
