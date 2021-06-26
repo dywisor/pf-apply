@@ -47,7 +47,7 @@ ssh remote-host pkill -SIGUSR1 pf-apply
 
 ### Basic Process Overview
 
-![Overview](files/images/pf-apply-overview.png)
+![Overview](assets/images/pf-apply-overview.png)
 
 ### Process Description
 
@@ -102,7 +102,7 @@ ssh remote-host pkill -SIGUSR1 pf-apply
 
 ### Detailed Process Overview
 
-![Overview](files/images/pf-apply-detail.png)
+![Overview](assets/images/pf-apply-detail.png)
 
 
 # LIMITATIONS
